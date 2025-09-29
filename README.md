@@ -47,7 +47,7 @@ Predicting customer churn for a subscription-based advertisement portal using an
 - Best model: XGBoost
 - ROC-AUC of 0.72 (44% improvement over baseline), and PR-AUC of 0.18
 - Business KPI optimization: adjusted threshold of the model to maximize ROI
-- Model and insights were presented to the company as part of the course deliverables.
+- Model and insights were presented to the company.
 
 ![evaluation_metrics](docs/images/evaluation_metrics.png)
 Evolution of evaluation metrics
