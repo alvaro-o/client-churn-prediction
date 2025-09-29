@@ -51,6 +51,7 @@ Predicting customer churn for a subscription-based advertisement portal using an
 
 ![evaluation_metrics](docs/images/evaluation_metrics.png)
 Evolution of evaluation metrics
+
 ![roi](docs/images/roi.png)
 Estimated ROI according to prediction threshold
 
