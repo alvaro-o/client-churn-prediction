@@ -4,7 +4,7 @@ Predicting customer churn for a subscription-based advertisement portal using an
 
 ## Tech Stack
 
-- Language & Environment: Python 3.11.0, Poetry, pyenv
+- Language & Environment: Python 3.11.0, Poetry
 - Data Manipulation & Analysis: Pandas, NumPy
 - Machine Learning: scikit-learn, XGBoost
 - Visualization: Matplotlib, Seaborn
