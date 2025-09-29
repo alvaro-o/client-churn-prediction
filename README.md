@@ -58,13 +58,14 @@ Estimated ROI according to prediction threshold
 
 ## Usage
 
-1. `poetry shell`
-2. `poetry install`
-3. Create data folder and add files zrive_advertiser_withdrawals.parquet, zrive_dim_advertiser.parquet and zrive_fct_monthly_snapshot_advertiser.parquet
-4. `python3 -m src.prepare_data` generates the file processed_data.parquet
-5. `python3 -m src.feature_engineering` generates the file full_data.parquet (used for training)
+1. Clone repo
+2. `poetry shell`
+3. `poetry install`
+4. Create data folder and add files zrive_advertiser_withdrawals.parquet, zrive_dim_advertiser.parquet and zrive_fct_monthly_snapshot_advertiser.parquet
+5. `python3 -m src.prepare_data` generates the file processed_data.parquet
+6. `python3 -m src.feature_engineering` generates the file full_data.parquet (used for training)
 
-Once full_data.parquet is generated, training notebooks and traind & inference scripts are ready to use. Final training notebook is train_boosting.ipynb.
+Once full_data.parquet is generated, training notebooks and train & inference scripts are ready to use. Final training notebook is train_boosting.ipynb.
 
 ## Project Report
 The full project report is available in `docs/project_report.pdf`.
